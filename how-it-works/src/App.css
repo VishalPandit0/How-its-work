@@ -1,0 +1,101 @@
+.body{
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  display: flex;
+ justify-content: center;
+}
+
+.heading{
+  margin-top: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+
+}
+
+.aboveSteps{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: absolute;
+  margin-top: 11%;
+  width:100%;
+}
+
+.steps{
+  display: flex;
+  flex-direction: column;
+ justify-content: space-evenly;
+  align-items: center;
+  background: #714FFF;
+  height: 200px;
+  width: 200px;
+  padding: 3px;
+  border-radius: 50%;
+  /* margin-left:120.63px; */
+  /* margin-right: 20px; */
+
+}
+
+.stepIcon{
+  height: 62.5px;
+  width: 62.5px;
+}
+
+.stepText {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center; 
+  margin-top: 10px; 
+  font-weight: 700;
+  font-size: 20px;
+  color: #ffff;
+}
+.arrow {
+  position: absolute;
+  height: 25.03px; 
+  width: 235.63px;
+}
+
+.insideStep2{
+    display: flex;
+    position: relative;
+    margin-bottom: 20%;
+}
+.insideStep4{
+  position: relative;
+  margin-bottom: 20.6%;
+}
+.insideStep1{
+  display: flex;
+}
+.insideStep3{
+  display: flex;
+  margin-bottom: 8%;
+}
+.insideStep1  .arrow{
+  height: 96.03px;
+  width: 252.63px;
+  margin-left: 114px;
+  margin-top: -64px;
+
+}
+.insideStep2  .arrow{
+  position: absolute;
+  height: 57.03px;
+  width: 235.63px;
+  margin-top: 46px;
+  margin-left: 156px;
+  
+}
+.insideStep3 .arrow{
+  position: absolute;
+    height: 54.03px;
+    width: 235.63px;
+    margin-top: 118px;
+    margin-left: 176px;
+}
+
+
