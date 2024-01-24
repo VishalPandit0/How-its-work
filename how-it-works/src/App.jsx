@@ -38,7 +38,7 @@ function App() {
             <p className="stepText">
             {step.text} <br /> {step.subtext}
             </p>
-          </div >
+          </div>
         
             {index < steps.length - 1 && <img className="arrow" src={step.arrow} alt={`Arrow ${index}`} />}
           
