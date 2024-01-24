@@ -98,4 +98,115 @@
     margin-left: 176px;
 }
 
+.steps:hover{
+  background: #68329e;
+  transform: scale(1.1);
+  transition: 0.2s linear;
+}
+.steps:hover .stepIcon {
+  transform: rotate(360deg);
+  transition: 0.5s linear;
+}
 
+@media screen and (max-width: 630px) {
+  .heading{
+    font-size: 2.5rem;
+  
+  }
+  .aboveSteps{
+    flex-direction: column;
+  }
+  .arrow {
+    display: none;   
+  }
+
+  .steps{
+    height: 200px;
+    width: 200px;
+    border-radius: 30%;
+  
+  }
+  .stepIcon{
+    height: 48.5px;
+    width: 48.5px;
+  }
+  
+  .insideStep2{ 
+    margin-bottom: 2rem;
+}
+.insideStep4{
+  margin-bottom: 2rem;
+}
+.insideStep1{
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+.insideStep3{
+  margin-bottom: 2rem;
+}
+.stepText {
+ font-size: 1.3rem;
+}
+
+}
+
+@media screen and (min-width: 630px) and (max-width: 1000px) {
+  .heading{
+    font-size: 3.5rem;
+  
+  }
+  .aboveSteps{
+    flex-direction: column;
+  }
+  .arrow {
+    display: none;   
+  }
+
+  .steps{
+    height: 250px;
+    width: 250px;
+    border-radius: 30%;
+  
+  }
+  .stepIcon{
+    height: 55.5px;
+    width: 55.5px;
+  }
+  
+  .insideStep2{ 
+    margin-bottom: 2rem;
+}
+.insideStep4{
+  margin-bottom: 2rem;
+}
+.insideStep1{
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+.insideStep3{
+  margin-bottom: 2rem;
+}
+.stepText {
+ font-size: 2rem;
+}
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1300px){
+ 
+  .steps{
+  height: 180px;
+  width: 180px;
+  }
+  .arrow {
+    height: 20.03px; 
+  }
+  .insideStep1  .arrow{
+    margin-left: 96px;
+  
+  }
+  .insideStep2  .arrow{
+    margin-left: 122px;
+    height: 48.03px;;
+
+}
+}
